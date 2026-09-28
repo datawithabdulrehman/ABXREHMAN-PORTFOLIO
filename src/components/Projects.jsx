@@ -34,15 +34,17 @@ export default function Projects() {
               <div className="flex items-center justify-between">
                 <span className={`font-mono text-xs ${accent.text}`}>[{p.id}]</span>
                 <div className="flex items-center gap-3 text-text-muted">
-                  <a
-                    href={p.github}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={`${p.title} on GitHub`}
-                    className="transition-colors hover:text-text-primary"
-                  >
-                    <FiGithub size={18} />
-                  </a>
+                  {p.github && (
+                    <a
+                      href={p.github}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={`${p.title} on GitHub`}
+                      className="transition-colors hover:text-text-primary"
+                    >
+                      <FiGithub size={18} />
+                    </a>
+                  )}
                   {p.live && (
                     <a
                       href={p.live}

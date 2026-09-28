@@ -6,6 +6,7 @@ import { useInView } from 'react-intersection-observer'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { FiArrowDown, FiGithub, FiLinkedin } from 'react-icons/fi'
+import { SiKaggle } from 'react-icons/si'
 import { profile, stats } from '../data/profile'
 
 export default function Hero() {
@@ -105,6 +106,15 @@ export default function Hero() {
                 className="text-text-muted transition-colors hover:text-accent-cyan"
               >
                 <FiLinkedin size={20} />
+              </a>
+              <a
+                href={profile.kaggle}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Kaggle"
+                className="text-text-muted transition-colors hover:text-accent-cyan"
+              >
+                <SiKaggle size={20} />
               </a>
             </div>
           </div>

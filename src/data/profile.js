@@ -6,6 +6,7 @@ export const profile = {
   email: 'datawithabdulrehman@gmail.com',
   github: 'https://github.com/datawithabdulrehman',
   linkedin: 'https://www.linkedin.com/in/datawithabdulrehman',
+  kaggle: 'https://www.kaggle.com/datawithabxrehman',
 }
 
 export const skillGroups = [

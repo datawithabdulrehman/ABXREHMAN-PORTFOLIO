@@ -3,9 +3,10 @@ import { motion } from 'framer-motion'
 import emailjs from '@emailjs/browser'
 import toast from 'react-hot-toast'
 import { FiGithub, FiLinkedin, FiMail, FiSend } from 'react-icons/fi'
+import { SiKaggle } from 'react-icons/si'
 import { profile } from '../data/profile'
 
-// Fill these in with your own EmailJS credentials (emailjs.com → Email Services / Templates).
+// EmailJS credentials
 const SERVICE_ID = 'service_pxyxzvi'
 const TEMPLATE_ID = 'template_5ay1d1q'
 const PUBLIC_KEY = 'c4tZ-LHuh7Q4IL6Ho'
@@ -13,6 +14,7 @@ const PUBLIC_KEY = 'c4tZ-LHuh7Q4IL6Ho'
 const socials = [
   { icon: FiGithub, label: 'GitHub', href: profile.github },
   { icon: FiLinkedin, label: 'LinkedIn', href: profile.linkedin },
+  { icon: SiKaggle, label: 'Kaggle', href: profile.kaggle },
   { icon: FiMail, label: 'Email', href: `mailto:${profile.email}` },
 ]
 
