@@ -60,32 +60,32 @@ export const projects = [
   },
   {
     id: '04',
-    title: 'London House Price Prediction',
-    description:
-      'A regression-based model trained on London housing data to estimate property prices from location, size, and other listing features.',
-    tags: ['Python', 'Regression', 'Pandas', 'Scikit-learn'],
-    github: 'https://github.com/datawithabdulrehman/London_House_Predection',
-    live: null,
-    accent: 'orange',
-  },
-  {
-    id: '05',
-    title: 'Self-Made Billionaires Analysis',
-    description:
-      'An exploratory data analysis project uncovering patterns behind the world\'s self-made billionaires — industries, ages, countries, and paths to wealth.',
-    tags: ['Python', 'Pandas', 'Data Analysis', 'Matplotlib'],
-    github: 'https://github.com/datawithabdulrehman/Selfmade-billionaires-analysis',
-    live: null,
-    accent: 'cyan',
-  },
-  {
-    id: '06',
     title: 'Waste Management System',
     description:
       'A web application for tracking and managing waste collection, built to explore practical, deployable solutions beyond notebooks and models.',
     tags: ['Web App', 'JavaScript'],
-    github: null,
+    github: https://github.com/datawithabdulrehman/Waste_Managment,
     live: 'https://abxwastemanagment.netlify.app/',
+    accent: 'orange',
+  },
+  {
+    id: '05',
+    title: 'Heart Disease Prediction',
+    description:
+      'A classification model that estimates the risk of heart disease from patient health parameters, deployed as an interactive Streamlit app.',
+    tags: ['Python', 'Scikit-learn', 'Classification', 'Streamlit'],
+    github: 'https://github.com/datawithabdulrehman/Heart_Disease',
+    live: 'https://heart-disease-by-abxrehman.streamlit.app/',
+    accent: 'cyan',
+  },
+  {
+    id: '06',
+    title: 'Pakistan Car Price Prediction',
+    description:
+      'A regression model that predicts used-car prices in the Pakistani market from features like make, model, year, and mileage, with a live Streamlit app.',
+    tags: ['Python', 'Regression', 'Pandas', 'Streamlit'],
+    github: 'https://github.com/datawithabdulrehman/Pakistan-Car-Prediction',
+    live: 'https://pakistan-car-prediction-abxrehman.streamlit.app/',
     accent: 'purple',
   },
 ]
