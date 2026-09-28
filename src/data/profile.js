@@ -59,13 +59,13 @@ export const projects = [
     live: 'https://food-delivery-time-prediction-byabxrehman.streamlit.app/',
     accent: 'pink',
   },
-  {
+  , {
     id: '04',
     title: 'Waste Management System',
     description:
       'A web application for tracking and managing waste collection, built to explore practical, deployable solutions beyond notebooks and models.',
     tags: ['Web App', 'JavaScript'],
-    github: https://github.com/datawithabdulrehman/Waste_Managment,
+    github: 'https://github.com/datawithabdulrehman/Waste_Managment',
     live: 'https://abxwastemanagment.netlify.app/',
     accent: 'orange',
   },
